@@ -1,4 +1,4 @@
-import { getHealth } from './app';
+import { getHealth } from '../src/js/app';
 
 test('Если здоровье меньше 15', () => {
   const received = getHealth('Маг', 14);
